@@ -1,0 +1,64 @@
+/* Body */
+	body {
+		background: #F2EEB3;
+		color: #260126;
+		font-size: 85%;
+		font-family 'Lucida Grande', 'Lucida Sans';
+		line-height: 2;
+		text-align: left;
+	}
+
+/* Headings */
+	h2 {
+		color: #59323C;
+		font-size: 2.4em;
+	}
+	h3 {
+		color: #8C6954;
+		font-size: 1.42em;
+	}
+
+	h2, h3 {
+		font-weight: 300;
+		line-height: 1.1;
+		margin-bottom: .5em;
+	}
+
+/* Anchors */
+	a {outline: 0;}
+	a img {border: 0px; text-decoration: none;}
+	a:link, a:visited {
+		color: #301B21;
+		padding: 0 1px;
+		text-decoration: underline;
+	}
+	a:hover, a:active {
+		background-color: #CFCB99;
+		color: #0D000D;
+		text-decoration: none;
+		text-shadow: 1px 1px 1px #B5B286;
+	}
+
+/* Paragraphs */
+	p {margin-bottom: 1.13em;}
+
+	strong {font-weight: bold;}
+	em {font-style: italic;}
+
+/*Lists */
+	ul {
+		list-style: outside;
+		margin: 1em 0 1em 1em;
+	}
+	ol {
+		list-style: outside;
+		margin: 1em 0 1em 1em;
+	}
+
+/* HTML5 Tags */
+	header, section, footer, aside, nav, article {
+		display: block;
+	}	
+
+/* Layout */
+.body {clear: both; margin: 0 auto; width: 800px;}
